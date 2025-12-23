@@ -1,0 +1,91 @@
+# ========================
+# UNITY STANDARD IGNORE
+# ========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+Recordings/
+sysinfo.txt
+mono_crash.*
+*.pidb
+*.pdb
+*.mdb
+*.booproj
+*.sln
+*.csproj
+*.unityproj
+*.user
+*.userprefs
+*.vs/
+*.tmp
+*.log
+.gradle/
+.DS_Store
+ExportedObj/
+Builds/
+Build/
+
+# Ignore Addressables cache
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[Aa]ssets/Addressables_Temp*
+
+# Jetbrains Rider plugin
+/[Aa]ssets/Plugins/Editor/JetBrains*
+*.DotSettings.user
+
+# Visual Scripting auto-generated
+/[Aa]ssets/Unity.VisualScripting.Generated/
+
+# ========================
+# OPTIONAL (IDE STUFF)
+# ========================
+.vs/
+.vscode/
+.idea/
+
+# ========================
+# UNITY ASSETS THAT SHOULD BE TRACKED (⚠️ KEEP!)
+# ========================
+# Jangan abaikan meta files! Mereka penting!
+!*.meta
+!Assets/**/*.meta
+!ProjectSettings/**/*.meta
+!Packages/**/*.meta
+
+# ========================
+# GIT LFS FILES
+# ========================
+# (File besar tetap ditrack, tapi lewat Git LFS)
+# Jangan diabaikan, cukup biarkan LFS yang handle
+!*.fbx
+!*.blend
+!*.png
+!*.jpg
+!*.jpeg
+!*.tga
+!*.tiff
+!*.psd
+!*.wav
+!*.mp3
+!*.ogg
+!*.mp4
+!*.mov
+!*.exr
+!*.hdr
+!*.zip
+
+# ========================
+# UNITY BUILD OUTPUT
+# ========================
+*.apk
+*.aab
+*.app
+*.exe
+*.unitypackage
+*.unitypackage.meta

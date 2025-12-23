@@ -1,0 +1,11 @@
+{
+    "asset": "b264760597900644586bf2e83c9f3fd8",
+    "fileName": "019a6e0f-96fb-77d4-bada-5e028d3ee021.pose.json",
+    "prompt": "take stuff with left hand",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 1448567691,
+    "w3CTraceId": "ceb9b83a8113a31ce072b735d59aa778",
+    "isTrimmed": false
+}
